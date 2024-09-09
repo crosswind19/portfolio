@@ -1,7 +1,24 @@
 import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+        // const form = useRef();
+
+        // const sendEmail = (e) => {
+        // e.preventDefault();
+    
+        // emailjs.sendForm('your_service_id', 'your_template_id', form.current, 'your_user_id')
+        //     .then((result) => {
+        //         console.log(result.text);
+        //         alert("Message Sent Successfully!");
+        //     }, (error) => {
+        //         console.log(error.text);
+        //         alert("Failed to send message, try again.");
+        //     });
+    
+        //     e.target.reset(); // Clear the form
+        // };
   return (
     <div className="bg-black text-white py-20" id='about'>
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
