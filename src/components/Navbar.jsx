@@ -2,18 +2,18 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-        <div>
-            <div>Kah Xuan</div>
-            <div>
-                <a href="#home">Home</a>
-                <a href="#page1">Page1</a>
-                <a href="#page2">Page2</a>
-                <a href="#page3">Page3</a>
+    <nav className='bg-black text-white px-8 md:px-16 lg:px-24'>
+        <div className='container py-2 flex justify-center md:justify-between items-center'>
+            <div className='text-2xl font-bold hidden md:inline'>Kah Xuan</div>
+            <div className='space-x-6'>
+                <a href="#home" className='hover:text-gray-400'>Home</a>
+                <a href="#page1" className='hover:text-gray-400'>Page1</a>
+                <a href="#page2" className='hover:text-gray-400'>Page2</a>
+                <a href="#page3" className='hover:text-gray-400'>Page3</a>
             </div>
-            <button>Contact Me</button>
+            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Contact Me</button>
         </div>
-    </div>
+    </nav>
   )
 }
 
